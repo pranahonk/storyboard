@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,41 +12,33 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Storyboard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Recommended News" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yxw-UP-DOV">
-                                <rect key="frame" x="22.5" y="371" width="141" height="16"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommended News" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yxw-UP-DOV">
+                                <rect key="frame" x="22.666666666666671" y="257" width="141" height="15.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="BL7-oG-Kpc">
-                                <rect key="frame" x="29" y="609" width="258" height="108"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="BL7-oG-Kpc">
+                                <rect key="frame" x="29" y="305" width="300" height="328"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kMe-JN-gfI">
-                                        <rect key="frame" x="0.0" y="0.0" width="258" height="108"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kMe-JN-gfI">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mask-4" translatesAutoresizingMaskIntoConstraints="NO" id="MyX-rx-w7E">
-                                                <rect key="frame" x="0.0" y="0.0" width="108" height="108"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="HkY-1w-Tbu"/>
+                                                    <constraint firstAttribute="width" constant="120" id="Vcg-68-RG3"/>
+                                                </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wpn-2H-rzt">
-                                                <rect key="frame" x="108" y="0.0" width="150" height="108"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wpn-2H-rzt">
+                                                <rect key="frame" x="125" y="0.0" width="175" height="100"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Kamis, 18 Juni 2021 - 13:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ed-RD-hNU">
-                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="57"/>
-                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Okezone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2k-Yh-UcJ">
-                                                        <rect key="frame" x="0.0" y="57" width="150" height="11.5"/>
-                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Perubahan Nasib Eder: Dari Jadi Pahlawan hingga Cuma Bertugas Bawa Trofi di Pial..." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6r-9N-G2t">
-                                                        <rect key="frame" x="0.0" y="68.5" width="150" height="39.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perubahan Nasib Eder: Dari Jadi Pahlawan hingga Cuma Bertugas Bawa Trofi di Pial..." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6r-9N-G2t">
+                                                        <rect key="frame" x="0.0" y="0.0" width="175" height="39.666666666666664"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="150" id="dq2-M8-cFe"/>
                                                         </constraints>
@@ -55,13 +47,268 @@
                                                         <nil key="highlightedColor"/>
                                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                                     </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Kamis, 18 Juni 2021 - 13:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ed-RD-hNU">
+                                                        <rect key="frame" x="0.0" y="44.666666666666686" width="175" height="39"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Okezone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2k-Yh-UcJ">
+                                                        <rect key="frame" x="0.0" y="88.666666666666686" width="175" height="11.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="MyX-rx-w7E" firstAttribute="centerY" secondItem="kMe-JN-gfI" secondAttribute="centerY" id="1GI-7h-yUC"/>
-                                            <constraint firstItem="MyX-rx-w7E" firstAttribute="centerX" secondItem="kMe-JN-gfI" secondAttribute="centerX" id="Hs0-Jw-e1i"/>
-                                            <constraint firstItem="wpn-2H-rzt" firstAttribute="leading" secondItem="MyX-rx-w7E" secondAttribute="trailing" constant="50" id="hVe-OK-dc8"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="LHo-3g-azZ"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="Qke-AA-uNw"/>
+                                            <constraint firstAttribute="trailing" secondItem="wpn-2H-rzt" secondAttribute="trailing" id="eqv-DJ-eL1"/>
+                                            <constraint firstItem="wpn-2H-rzt" firstAttribute="leading" secondItem="MyX-rx-w7E" secondAttribute="trailing" constant="5" id="ild-51-b5Q"/>
+                                            <constraint firstAttribute="width" constant="300" id="lrz-ae-K1S"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nt0-HC-1n8">
+                                        <rect key="frame" x="0.0" y="114" width="300" height="100"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mask-4" translatesAutoresizingMaskIntoConstraints="NO" id="tqn-Hz-LCG">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="1VY-7t-LYY"/>
+                                                    <constraint firstAttribute="height" constant="100" id="UlI-aL-w8A"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="k6V-OZ-JAL">
+                                                <rect key="frame" x="125" y="0.0" width="175" height="100"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perubahan Nasib Eder: Dari Jadi Pahlawan hingga Cuma Bertugas Bawa Trofi di Pial..." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlS-Rc-HCl">
+                                                        <rect key="frame" x="0.0" y="0.0" width="175" height="39.666666666666664"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="150" id="gwM-Uc-gJN"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="11"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Kamis, 18 Juni 2021 - 13:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdu-DD-l4R">
+                                                        <rect key="frame" x="0.0" y="44.666666666666686" width="175" height="39"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Okezone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSE-ss-0WD">
+                                                        <rect key="frame" x="0.0" y="88.666666666666686" width="175" height="11.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="k6V-OZ-JAL" firstAttribute="leading" secondItem="tqn-Hz-LCG" secondAttribute="trailing" constant="5" id="Hs1-8A-mld"/>
+                                            <constraint firstAttribute="width" constant="300" id="MOu-vG-k3m"/>
+                                            <constraint firstItem="tqn-Hz-LCG" firstAttribute="centerY" secondItem="nt0-HC-1n8" secondAttribute="centerY" id="Mcg-EQ-2WU"/>
+                                            <constraint firstAttribute="trailing" secondItem="k6V-OZ-JAL" secondAttribute="trailing" id="cKl-bs-Rlb"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="mGW-uK-sF2"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="qPO-N7-fmZ"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jMJ-Hb-jDS">
+                                        <rect key="frame" x="0.0" y="228" width="300" height="100"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mask-4" translatesAutoresizingMaskIntoConstraints="NO" id="n1V-ni-dUF">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="Vvd-zv-DR3"/>
+                                                    <constraint firstAttribute="width" constant="120" id="vuH-13-LbG"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="dBI-wm-1ao">
+                                                <rect key="frame" x="125" y="0.0" width="175" height="100"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perubahan Nasib Eder: Dari Jadi Pahlawan hingga Cuma Bertugas Bawa Trofi di Pial..." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrZ-xC-WoY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="175" height="39.666666666666664"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="150" id="ixU-il-Wr3"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="11"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Kamis, 18 Juni 2021 - 13:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rB4-Wr-DK9">
+                                                        <rect key="frame" x="0.0" y="44.666666666666629" width="175" height="39"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Okezone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpn-oU-BUr">
+                                                        <rect key="frame" x="0.0" y="88.666666666666629" width="175" height="11.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="dBI-wm-1ao" firstAttribute="leading" secondItem="n1V-ni-dUF" secondAttribute="trailing" constant="5" id="0bQ-8U-HUr"/>
+                                            <constraint firstItem="n1V-ni-dUF" firstAttribute="centerY" secondItem="jMJ-Hb-jDS" secondAttribute="centerY" id="Fas-IR-97L"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="MvA-Yv-Bxf"/>
+                                            <constraint firstAttribute="width" constant="300" id="OjO-UN-fwB"/>
+                                            <constraint firstAttribute="trailing" secondItem="dBI-wm-1ao" secondAttribute="trailing" id="ThF-rl-A5p"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="yOQ-cl-Pil"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="gsq-bc-mKb">
+                                <rect key="frame" x="357" y="305" width="300" height="328"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Il9-MA-m9B">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mask-4" translatesAutoresizingMaskIntoConstraints="NO" id="cRQ-Pv-lwW">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="s2w-rO-rrR"/>
+                                                    <constraint firstAttribute="height" constant="100" id="uhZ-ZW-cPy"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EMR-jR-jnu">
+                                                <rect key="frame" x="125" y="0.0" width="175" height="100"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perubahan Nasib Eder: Dari Jadi Pahlawan hingga Cuma Bertugas Bawa Trofi di Pial..." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8F-Ab-vge">
+                                                        <rect key="frame" x="0.0" y="0.0" width="175" height="39.666666666666664"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="150" id="Mmc-N8-eJw"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="11"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Kamis, 18 Juni 2021 - 13:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVX-Nb-gFm">
+                                                        <rect key="frame" x="0.0" y="44.666666666666686" width="175" height="39"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Okezone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hh-7m-GEI">
+                                                        <rect key="frame" x="0.0" y="88.666666666666686" width="175" height="11.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="5BM-FY-2S0"/>
+                                            <constraint firstItem="EMR-jR-jnu" firstAttribute="leading" secondItem="cRQ-Pv-lwW" secondAttribute="trailing" constant="5" id="C57-Dy-eSN"/>
+                                            <constraint firstItem="cRQ-Pv-lwW" firstAttribute="centerY" secondItem="Il9-MA-m9B" secondAttribute="centerY" id="POq-Oh-9Hx"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="aVr-Lo-Jem"/>
+                                            <constraint firstAttribute="trailing" secondItem="EMR-jR-jnu" secondAttribute="trailing" id="tkH-EZ-9rA"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="wZy-MF-4gs"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="DUJ-KY-04L">
+                                        <rect key="frame" x="0.0" y="114" width="300" height="100"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mask-4" translatesAutoresizingMaskIntoConstraints="NO" id="acL-Kt-Wjw">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="0eA-h1-HHk"/>
+                                                    <constraint firstAttribute="height" constant="100" id="Nda-Mr-QDF"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nD5-Fd-uKw">
+                                                <rect key="frame" x="125" y="0.0" width="175" height="100"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perubahan Nasib Eder: Dari Jadi Pahlawan hingga Cuma Bertugas Bawa Trofi di Pial..." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdj-ud-526">
+                                                        <rect key="frame" x="0.0" y="0.0" width="175" height="39.666666666666664"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="150" id="Dp6-X1-0Y5"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="11"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Kamis, 18 Juni 2021 - 13:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pya-50-6dC">
+                                                        <rect key="frame" x="0.0" y="44.666666666666686" width="175" height="39"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Okezone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tca-yN-f3j">
+                                                        <rect key="frame" x="0.0" y="88.666666666666686" width="175" height="11.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="acL-Kt-Wjw" firstAttribute="centerY" secondItem="DUJ-KY-04L" secondAttribute="centerY" id="9Vb-bU-Z9k"/>
+                                            <constraint firstAttribute="trailing" secondItem="nD5-Fd-uKw" secondAttribute="trailing" id="FJ9-33-IX1"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="LGZ-xu-Os6"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="bfP-06-Ypt"/>
+                                            <constraint firstItem="nD5-Fd-uKw" firstAttribute="leading" secondItem="acL-Kt-Wjw" secondAttribute="trailing" constant="5" id="uSD-hM-3c2"/>
+                                            <constraint firstAttribute="width" constant="300" id="y4w-xt-m2d"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="JYX-g1-t8P">
+                                        <rect key="frame" x="0.0" y="228" width="300" height="100"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mask-4" translatesAutoresizingMaskIntoConstraints="NO" id="tVQ-Rt-TJg">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="Sbk-rY-Gsb"/>
+                                                    <constraint firstAttribute="width" constant="120" id="raN-97-lFr"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="AKt-Mq-3sr">
+                                                <rect key="frame" x="125" y="0.0" width="175" height="100"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perubahan Nasib Eder: Dari Jadi Pahlawan hingga Cuma Bertugas Bawa Trofi di Pial..." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMd-i3-PTv">
+                                                        <rect key="frame" x="0.0" y="0.0" width="175" height="39.666666666666664"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="150" id="m0x-o8-3qc"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="11"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Kamis, 18 Juni 2021 - 13:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPg-pT-J1x">
+                                                        <rect key="frame" x="0.0" y="44.666666666666629" width="175" height="39"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Okezone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iql-f3-erx">
+                                                        <rect key="frame" x="0.0" y="88.666666666666629" width="175" height="11.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="AKt-Mq-3sr" firstAttribute="leading" secondItem="tVQ-Rt-TJg" secondAttribute="trailing" constant="5" id="Jmm-Qb-rbT"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="Zsq-Jz-CJQ"/>
+                                            <constraint firstAttribute="width" constant="300" id="g3e-gX-nLb"/>
+                                            <constraint firstItem="tVQ-Rt-TJg" firstAttribute="centerY" secondItem="JYX-g1-t8P" secondAttribute="centerY" id="pyd-f9-wZU"/>
+                                            <constraint firstAttribute="trailing" secondItem="AKt-Mq-3sr" secondAttribute="trailing" id="v0d-Hc-ILm"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="zaH-Fk-Q8z"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
@@ -70,8 +317,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="BL7-oG-Kpc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="85M-di-b04"/>
-                            <constraint firstItem="Yxw-UP-DOV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22.5" id="i9O-qG-LO6"/>
+                            <constraint firstItem="Yxw-UP-DOV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="213" id="05t-r6-6t7"/>
+                            <constraint firstItem="gsq-bc-mKb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="261" id="Hgp-Rz-teE"/>
+                            <constraint firstItem="BL7-oG-Kpc" firstAttribute="top" secondItem="gsq-bc-mKb" secondAttribute="top" id="Hyq-9e-PxV"/>
+                            <constraint firstItem="Yxw-UP-DOV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22.5" id="I28-wP-d3F"/>
+                            <constraint firstItem="gsq-bc-mKb" firstAttribute="leading" secondItem="BL7-oG-Kpc" secondAttribute="trailing" constant="28" id="eaC-WA-s76"/>
+                            <constraint firstItem="BL7-oG-Kpc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="uX9-HG-Rn1"/>
                         </constraints>
                     </view>
                 </viewController>
